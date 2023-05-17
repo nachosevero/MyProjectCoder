@@ -147,8 +147,24 @@ div.contacto-form {
   padding: 1em;
 }
 
-.contacto-form form button,
-.contacto-form form input,
+.contacto-form form button {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid red;
+  outline: 0;
+  color: white;
+}
+.contacto-form form input {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid red;
+  outline: 0;
+  color: white;
+}
 .contacto-form form textarea {
   width: 100%;
   padding: 0.7em;
@@ -251,7 +267,15 @@ h1 {
   padding: 1em;
 }
 
-.ing-form form button,
+.ing-form form button {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid red;
+}
 .ing-form form input {
   width: 100%;
   padding: 0.7em;
@@ -270,7 +294,11 @@ h1 {
   padding: 1em;
 }
 
-.ing-form form button:hover,
+.ing-form form button:hover {
+  background: red;
+  color: white;
+  transition: background-color 1s ease-out;
+}
 .ing-form form button:focus {
   background: red;
   color: white;
