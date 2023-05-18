@@ -96,14 +96,17 @@ h2.centro {
   color: white;
 }
 
+.prodcentr {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
 img.productos {
-  height: 150px;
-  width: 200px;
-  display: inline;
-  margin-left: 37px;
-  margin-top: 37px;
-  margin-bottom: 37px;
-  border: 1px solid gray;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px black;
 }
 
 .textoserv {
@@ -311,6 +314,10 @@ h1 {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
   color: black;
+}
+
+.imgprod {
+  font-size: 30px;
 }
 
 @media (min-width: 700px) {
