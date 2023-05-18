@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Inicio - Keypers</title>
 </head>
 <body>
@@ -20,14 +21,14 @@
             <a href="./pages/teclados.html" class="navlink">Teclados</a>
             <a href="./pages/servicios.html" class="navlink">Servicios</a>
             <a href="./pages/contacto.html" class="navlink">Contacto</a>
-            <a href="./pages/ingresar.html" class="navlink">Ingresar</a>
+            <a href="./pages/ubicacion.html" class="navlink">Ubicacion</a>
         </nav>
     </header>
     <main>
-        <h1>Teclado Star Wars Darth Vader</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+        <h1 data-aos="fade-right">Teclado Star Wars Darth Vader</h1>
+        <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
     </main>
-    <p class="fondoh">Escape the ordinary</p>
+    <p class="fondoh"><span data-aos="fade-left"> Escape the ordinary</span></p>
     <section><br><br><br>
         <br><h2 class="centro">Destacados</h2><br>
         <div class="container">
@@ -57,6 +58,21 @@
                 </div>
             </div>
         </div>
+        <br><br><br>
+        <div class="galeria">
+            <article class="art-1 art">
+                <div class="art-img img1"></div>
+                <div class="art-title">Switch Red</div>
+            </article>
+            <article class="art-1 art">
+                <div class="art-img img2"></div>
+                <div class="art-title">Switch Blue</div>
+            </article>
+            <article class="art-1 art">
+                <div class="art-img img3"></div>
+                <div class="art-title">Switch Brown</div>
+            </article>
+        </div>
     </section>
     <br>
     <footer><br>
@@ -68,5 +84,9 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

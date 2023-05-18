@@ -238,76 +238,6 @@ h1 {
   background-color: rgb(44, 44, 44);
 }
 
-.cont-ing {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em;
-}
-
-.iniciarsesion {
-  text-align: center;
-  font-size: 2em;
-  font-family: "Montserrat", sans-serif;
-}
-
-.ing-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-  font-family: "Montserrat", sans-serif;
-}
-
-.ing-wrapper > * {
-  padding: 1em;
-}
-
-.ing-form {
-  background: black;
-  color: white;
-}
-
-.ing-form form p {
-  margin: 0;
-  padding: 1em;
-}
-
-.ing-form form button {
-  width: 100%;
-  padding: 0.7em;
-  border: none;
-  background: none;
-  outline: none;
-  color: white;
-  border-bottom: 1px solid red;
-}
-.ing-form form input {
-  width: 100%;
-  padding: 0.7em;
-  border: none;
-  background: none;
-  outline: none;
-  color: white;
-  border-bottom: 1px solid red;
-}
-
-.ing-form form button {
-  background: red;
-  color: black;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em;
-}
-
-.ing-form form button:hover {
-  background: red;
-  color: white;
-  transition: background-color 1s ease-out;
-}
-.ing-form form button:focus {
-  background: red;
-  color: white;
-  transition: background-color 1s ease-out;
-}
-
 .fondoh {
   background-color: red;
   text-align: center;
@@ -318,6 +248,51 @@ h1 {
 
 .imgprod {
   font-size: 30px;
+}
+
+.backimg {
+  background-image: url(../multimedia/559881.jpg);
+  background-size: cover;
+}
+
+.bodycolor {
+  background-image: linear-gradient(to bottom, #575252, #474343, #373434, #282626, #1a1919, #141313, #0b0b0b, #000000, #000000, #000000, #000000, #000000);
+}
+
+.galeria {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.galeria .art {
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  border: 20px solid red;
+  transition: all 0.9s;
+}
+.galeria .art .art-img {
+  height: 200px;
+  background-image: url(../multimedia/CHERRY_MX_RED-368x368.png);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .art .art-title {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  line-height: 150px;
+}
+.galeria .art .img2 {
+  background-image: url(../multimedia/CHERRY_MX_BLUE-368x368.png);
+}
+.galeria .art .img3 {
+  background-image: url(../multimedia/CHERRY_MX_BROWN-368x368.png);
+}
+.galeria .art:hover {
+  transform: scale(1.2) rotate(360deg);
+  box-shadow: 0 0 5px #000;
 }
 
 @media (min-width: 700px) {

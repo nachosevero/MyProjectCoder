@@ -10,6 +10,14 @@ $color3: white;
 $font1: 'Montserrat', sans-serif;
 $font2: 'Bebas Neue', cursive;
 
+$var1: 100%;
+$var2: 50%;
+
+$sizesm: 30px;
+$sizem: 35px;
+$sizel: 40px;
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +25,7 @@ $font2: 'Bebas Neue', cursive;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: $color3;
 }
 header{
     display: flex;
@@ -48,29 +56,29 @@ nav {
 }
 main{
     height: 500px;
-    width: 100%;
+    width: $var1;
     background-image: url(../multimedia/darthvaderteclado.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: $color3;
     text-align: center;
     font-family: $font2;
-    font-size: 30px;
+    font-size: $sizesm;
 }
 footer{
     background-color: $color2;
     text-align: center;
     margin-top: 10%;
     p{
-        color: white;
+        color: $color3;
         font-family: $font1;
     }
 }
 h2.centro{
     font-family: $font2;
-    font-size: 35px;
+    font-size: $sizem;
     color: $color2;
     text-align: center;
 }
@@ -85,15 +93,15 @@ h2.centro{
 } 
 .servicios{
     font-family: $font2;
-    font-size: 40px;
+    font-size: $sizel;
     margin-left: 20px;
-    color: white;
+    color: $color3;
 }
 .servicios2{
     font-family: $font2;
     font-size: 25px;
     margin-left: 20px;
-    color: white;
+    color: $color3;
 }
 .prodcentr{
     width: 75vw;
@@ -102,21 +110,20 @@ h2.centro{
     margin: auto;
 }
 img.productos{
-    width: 100%;
+    width: $var1;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px black;
+    box-shadow: 0px 3px 5px $color2;
 }
 .textoserv{
     font-family: $font1;
-    color: white;
+    color: $color3;
     font-size: 17px;
     margin-left: 19px;
 }
 div.contacto-wrapper{
-    color: white;
+    color: $color3;
     font-family: $font1;
     padding: 0 1.5em;
-    
 }
 .content{
     max-width: 1170px;
@@ -150,31 +157,31 @@ div.contacto-form{
 .contacto-form{
     form{
         button{
-            width: 100%;
+            width: $var1;
             padding: .7em;
             border: none;
             background: none;
             border-bottom: 1px solid $color1;
             outline: 0;
-            color: white;
+            color: $color3;
         }
         input{
-            width: 100%;
+            width: $var1;
             padding: .7em;
             border: none;
             background: none;
             border-bottom: 1px solid $color1;
             outline: 0;
-            color: white;
+            color: $color3;
         }
         textarea{
-            width: 100%;
+            width: $var1;
             padding: .7em;
             border: none;
             background: none;
             border-bottom: 1px solid $color1;
             outline: 0;
-            color: white;
+            color: $color3;
         }
     }
 }
@@ -197,7 +204,7 @@ div.contacto-form{
 }
 .contenedor{
     background-color: rgb(44, 44, 44);
-    width: 100%;
+    width: $var1;
     min-height: 500px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -206,7 +213,7 @@ div.contacto-form{
     grid-gap: 15px;
 }
 .item{
-    border: 3px solid black;
+    border: 3px solid $color2;
     background-size: cover;
     background-position: center;
 }
@@ -234,92 +241,57 @@ h1{
 .greay{
     background-color: rgb(44, 44, 44);
 }
-.cont-ing{
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-.iniciarsesion{
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
-}
-.ing-wrapper{
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-    font-family: 'Montserrat', sans-serif;
-}
-.ing-wrapper > * {
-    padding: 1em;
-}
-.ing-form{
-    background: $color2;
-    color: white;
-}
-.ing-form{
-    form{
-        p{
-            margin: 0;
-            padding: 1em;
-        }
-    }
-}
-.ing-form{
-    form{
-        button{
-            width: 100%;
-            padding: .7em;
-            border: none;
-            background: none;
-            outline: none;
-            color: white;
-            border-bottom: 1px solid $color1;
-        }
-        input{
-            width: 100%;
-            padding: .7em;
-            border: none;
-            background: none;
-            outline: none;
-            color: white;
-            border-bottom: 1px solid $color1;
-        }
-    }
-}
-.ing-form{
-    form{
-        button{
-            background: $color1;
-            color: $color2;
-            border: 0;
-            text-transform: uppercase;
-            padding: 1em;
-        }
-    }
-}
-.ing-form{
-    form{
-        button:hover{
-            background: $color1;
-            color: white;
-            transition: background-color 1s ease-out;
-        }
-        button:focus{
-            background: $color1;
-            color: white;
-            transition: background-color 1s ease-out;
-        }
-    }
-}
 .fondoh{
     background-color: $color1;
     text-align: center;
     font-family: $font2;
-    font-size: 40px;
-    color: black;
+    font-size: $sizel;
+    color: $color2;
 }
 .imgprod{
-    font-size: 30px;
+    font-size: $sizesm;
+}
+.backimg{
+    background-image: url(../multimedia/559881.jpg);
+    background-size: cover;
+}
+.bodycolor{
+    background-image: linear-gradient(to bottom, #575252, #474343, #373434, #282626, #1a1919, #141313, #0b0b0b, #000000, #000000, #000000, #000000, #000000);
+}
+.galeria{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .art{
+        height: 350px;
+        width: 250px;
+        background-color: white;
+        border: 20px solid red;
+        transition: all 0.9s;
+        .art-img{
+            height: 200px;
+            background-image: url(../multimedia/CHERRY_MX_RED-368x368.png);
+            background-size: cover;
+            background-position: center;
+        } 
+        .art-title{
+            text-align: center;
+            font-family: $font2;
+            font-size: 25px;
+            line-height: 150px;
+        }
+        .img2{
+            background-image: url(../multimedia/CHERRY_MX_BLUE-368x368.png);
+        }
+        .img3{
+            background-image: url(../multimedia/CHERRY_MX_BROWN-368x368.png);
+        }
+    }
+    .art:hover{
+        transform: scale(1.2) rotate(360deg);
+        box-shadow: 0 0 5px #000;
+    }
 }
 @media (min-width: 700px) {
     div.contacto-wrapper{
