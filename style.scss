@@ -47,7 +47,7 @@ nav {
     a{
     font-weight: 600;
     padding-right: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     }
     a:hover{
     color: $color1;
@@ -290,9 +290,15 @@ h1{
         }
     }
     .art:hover{
-        transform: scale(1.2) rotate(360deg);
+        transform: scale(1.2);
         box-shadow: 0 0 5px #000;
     }
+}
+h3{
+    font-family: $font2;
+    text-align: center;
+    color: $color2;
+    font-size: $sizem;
 }
 @media (min-width: 700px) {
     div.contacto-wrapper{

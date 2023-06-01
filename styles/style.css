@@ -292,8 +292,15 @@ h1 {
   background-image: url(../multimedia/CHERRY_MX_BROWN-368x368.png);
 }
 .galeria .art:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2);
   box-shadow: 0 0 5px #000;
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  color: black;
+  font-size: 35px;
 }
 
 @media (min-width: 700px) {
